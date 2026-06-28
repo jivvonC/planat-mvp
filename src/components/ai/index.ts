@@ -1,0 +1,10 @@
+export { DiagnosisProgress } from "./DiagnosisProgress";
+export { DiagnosisComparison } from "./DiagnosisComparison";
+export { QuestionCard } from "./QuestionCard";
+export { ObservationGuide } from "./ObservationGuide";
+export { AnswerCard } from "./AnswerCard";
+export { DiagnosisSummary } from "./DiagnosisSummary";
+export { ObservationsSection } from "./ObservationsSection";
+export { WhyHappenedSection } from "./WhyHappenedSection";
+export { TodayCareSection } from "./TodayCareSection";
+export { PreventionTipSection } from "./PreventionTipSection";

@@ -1,0 +1,122 @@
+{
+  "observationLabels": {
+    "leaf-color-change": {
+      "yes": "잎 색이 변한 것을 확인했어요."
+    },
+    "tip-browning": {
+      "yes": "잎 끝이 갈색으로 변했어요."
+    },
+    "soil-moisture": {
+      "yes": "흙이 아직 촉촉했어요.",
+      "no": "흙이 많이 말라 있었어요."
+    },
+    "light-exposure": {
+      "low": "햇빛이 부족한 환경이에요.",
+      "indirect": "간접광 아래에 있어요.",
+      "bright": "밝은 곳에 두고 있어요."
+    },
+    "last-watering": {
+      "today": "최근 물을 주었어요.",
+      "recent": "최근 물을 주었어요.",
+      "older": "물 준 지 꽤 지났어요.",
+      "unknown": "물주기 시기를 기억하기 어려웠어요."
+    }
+  },
+  "flows": {
+    "general-health": {
+      "rules": [
+        {
+          "id": "overwatering",
+          "match": {
+            "tip-browning": "yes",
+            "soil-moisture": "yes"
+          },
+          "title": "과습 가능성이 높아요.",
+          "reassurance": "너무 걱정하지 않아도 괜찮아요. 조금만 관리하면 다시 건강하게 자랄 수 있어요.",
+          "priorityObservationKeys": [
+            "tip-browning",
+            "soil-moisture",
+            "last-watering"
+          ],
+          "whyHappened": [
+            "흙이 아직 충분히 마르지 않은 상태에서 물을 자주 주면 뿌리에 산소가 부족해질 수 있어요.",
+            "잎 끝이 갈색으로 변하는 것은 과습의 대표적인 신호 중 하나예요."
+          ],
+          "todayCare": [
+            "물은 하루 정도 쉬어볼게요.",
+            "통풍이 잘 되는 곳으로 옮겨주세요.",
+            "흙이 마르면 다시 물을 주세요."
+          ],
+          "preventionTip": "다음에는 흙이 2~3cm 정도 말랐는지 먼저 확인해보세요."
+        },
+        {
+          "id": "underwatering",
+          "match": {
+            "soil-moisture": "no",
+            "last-watering": "older"
+          },
+          "title": "건조 스트레스일 수 있어요.",
+          "reassurance": "물만 조금 신경 써주면 금방 회복할 수 있는 상태예요.",
+          "priorityObservationKeys": [
+            "soil-moisture",
+            "last-watering",
+            "leaf-color-change"
+          ],
+          "whyHappened": [
+            "흙이 오래 말라 있으면 뿌리가 수분을 제대로 받지 못해 잎이 먼저 반응할 수 있어요.",
+            "물 준 지 오래 지났다면 식물이 조금 지친 상태일 수 있어요."
+          ],
+          "todayCare": [
+            "흙 전체가 고르게 마른 뒤 천천히 물을 주세요.",
+            "직사광선은 피하고 밝은 그늘에 두세요.",
+            "내일 아침 잎 상태를 한번 더 살펴보세요."
+          ],
+          "preventionTip": "다음에는 흙 표면이 말랐는지 손가락으로 가볍게 확인해보세요."
+        },
+        {
+          "id": "low-light",
+          "match": {
+            "light-exposure": "low"
+          },
+          "title": "빛이 조금 부족할 수 있어요.",
+          "reassurance": "위치만 조금 바꿔도 식물이 한결 편안해질 수 있어요.",
+          "priorityObservationKeys": [
+            "light-exposure",
+            "leaf-color-change",
+            "tip-browning"
+          ],
+          "whyHappened": [
+            "빛이 부족하면 식물이 에너지를 내기 어려워 잎 색이 탁해지거나 약해질 수 있어요.",
+            "햇빛이 부족한 환경은 성장 속도를 늦추기도 해요."
+          ],
+          "todayCare": [
+            "창가 쪽으로 조금 옮겨 간접광을 받게 해주세요.",
+            "잎에 먼지가 있다면 부드럽게 닦아주세요.",
+            "일주일 정도 위치를 유지하며 변화를 지켜보세요."
+          ],
+          "preventionTip": "다음에는 잎이 햇빛 방향으로 기울어지는지 관찰해보세요."
+        }
+      ],
+      "default": {
+        "id": "general-check",
+        "title": "지금은 차분히 지켜볼 시기예요.",
+        "reassurance": "큰 문제는 아닐 수 있어요. 오늘 관찰한 내용을 바탕으로 천천히 돌봐주면 충분해요.",
+        "priorityObservationKeys": [
+          "leaf-color-change",
+          "tip-browning",
+          "soil-moisture"
+        ],
+        "whyHappened": [
+          "식물은 환경 변화에 조금씩 반응하며 스스로 적응하는 시간이 필요해요.",
+          "오늘 확인한 관찰들은 앞으로 어떤 돌봄이 필요한지 알려주는 소중한 단서예요."
+        ],
+        "todayCare": [
+          "오늘은 물주기보다 상태 관찰에 집중해보세요.",
+          "통풍이 잘 되는 곳에 두세요.",
+          "며칠 뒤 같은 각도에서 잎을 다시 살펴보세요."
+        ],
+        "preventionTip": "다음에는 같은 시간, 같은 각도에서 잎 사진을 남겨보세요."
+      }
+    }
+  }
+}

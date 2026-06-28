@@ -1,0 +1,81 @@
+[
+  {
+    "id": "calendar-01",
+    "plantId": "plant-01",
+    "type": "watering",
+    "title": "물을 주었어요.",
+    "date": "2026-06-24",
+    "description": "09:12"
+  },
+  {
+    "id": "calendar-02",
+    "plantId": "plant-01",
+    "type": "photo",
+    "title": "오늘의 모습을 남겼어요.",
+    "description": "새 잎이 처음 펼쳐졌어요.",
+    "date": "2026-06-24",
+    "photoUrl": "monstera/monstera1.png"
+  },
+  {
+    "id": "calendar-03",
+    "plantId": "plant-04",
+    "type": "observation",
+    "title": "새 잎이 올라왔어요.",
+    "date": "2026-06-22",
+    "description": "19:20"
+  },
+  {
+    "id": "calendar-04",
+    "plantId": "plant-05",
+    "type": "watering",
+    "title": "물을 주었어요.",
+    "date": "2026-06-25"
+  },
+  {
+    "id": "calendar-05",
+    "plantId": "plant-05",
+    "type": "photo",
+    "title": "오늘의 모습을 남겼어요.",
+    "description": "햇빛 아래 잎이 반짝였어요.",
+    "date": "2026-06-25",
+    "photoUrl": "pilea/pilea1.jpeg"
+  },
+  {
+    "id": "calendar-06",
+    "plantId": "plant-03",
+    "type": "fertilizer",
+    "title": "영양제를 주었어요.",
+    "date": "2026-06-26"
+  },
+  {
+    "id": "calendar-07",
+    "plantId": "plant-01",
+    "type": "mission",
+    "title": "오늘의 미션 완료",
+    "description": "새 잎이 생겼어요.",
+    "date": "2026-06-26"
+  },
+  {
+    "id": "calendar-08",
+    "plantId": "plant-02",
+    "type": "note",
+    "title": "새 잎이 지난주보다 많이 자랐어요.",
+    "date": "2026-06-26"
+  },
+  {
+    "id": "calendar-09",
+    "plantId": "plant-07",
+    "type": "photo",
+    "title": "오늘의 모습을 남겼어요.",
+    "description": "하트 모양 잎이 더 선명해졌어요.",
+    "date": "2026-06-27",
+    "photoUrl": "heart-chain/heart-chain1.jpeg"
+  },
+  {
+    "id": "calendar-10",
+    "plantId": "plant-08",
+    "type": "watering",
+    "title": "물을 주었어요.",
+    "date": "2026-06-27"
+  }
+]

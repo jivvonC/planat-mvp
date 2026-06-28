@@ -1,0 +1,58 @@
+[
+  {
+    "id": "tip-01",
+    "plantId": "plant-01",
+    "title": "햇빛 케어",
+    "description": "오늘은 햇빛이 잘 드는 창가에 두면 좋아요.",
+    "category": "environment"
+  },
+  {
+    "id": "tip-02",
+    "plantId": "plant-02",
+    "title": "물주기 주의",
+    "description": "흙이 충분히 마른 뒤 물을 주세요.",
+    "category": "watering"
+  },
+  {
+    "id": "tip-03",
+    "plantId": "plant-03",
+    "title": "환기 팁",
+    "description": "하루 정도 바람을 쐬어주는 것도 좋아요.",
+    "category": "environment"
+  },
+  {
+    "id": "tip-04",
+    "plantId": "plant-04",
+    "title": "성장 관찰",
+    "description": "새 잎이 자라는 시기에는 흙이 너무 마르지 않도록 해주세요.",
+    "category": "growth"
+  },
+  {
+    "id": "tip-05",
+    "plantId": "plant-05",
+    "title": "물주기 팁",
+    "description": "잎이 살짝 처지면 물을 주기 좋은 타이밍이에요.",
+    "category": "watering"
+  },
+  {
+    "id": "tip-06",
+    "plantId": "plant-06",
+    "title": "날씨 대비",
+    "description": "비가 오기 전 베란다 식물을 안으로 옮겨볼까요?",
+    "category": "weather"
+  },
+  {
+    "id": "tip-07",
+    "plantId": "plant-07",
+    "title": "분갈이 시기",
+    "description": "뿌리가 화분 밖으로 나오면 분갈이를 고려해보세요.",
+    "category": "growth"
+  },
+  {
+    "id": "tip-08",
+    "plantId": "plant-08",
+    "title": "건강한 상태",
+    "description": "지금처럼 환한 간접광이 다육이에게 잘 맞아요.",
+    "category": "environment"
+  }
+]

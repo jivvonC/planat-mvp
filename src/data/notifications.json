@@ -1,0 +1,72 @@
+[
+  {
+    "id": "notification-01",
+    "type": "water",
+    "title": "물을 줄 시간이 되었어요",
+    "message": "몬이가 오늘 물을 기다리고 있어요.",
+    "relatedPlantId": "plant-01",
+    "isRead": false,
+    "createdAt": "2026-06-27T07:30:00",
+    "navigateTo": "plant-detail"
+  },
+  {
+    "id": "notification-02",
+    "type": "weather",
+    "title": "오늘 오후에는 비가 올 예정이에요",
+    "message": "베란다에 있는 알리를 잠시 안으로 들여볼까요?",
+    "relatedPlantId": "plant-06",
+    "isRead": false,
+    "createdAt": "2026-06-27T08:00:00",
+    "navigateTo": "plant-detail"
+  },
+  {
+    "id": "notification-03",
+    "type": "mission",
+    "title": "오늘의 작은 미션이 도착했어요",
+    "message": "새 잎이 생겼는지 함께 살펴볼까요?",
+    "relatedPlantId": "plant-01",
+    "isRead": false,
+    "createdAt": "2026-06-27T09:00:00",
+    "navigateTo": "plant-detail"
+  },
+  {
+    "id": "notification-04",
+    "type": "diagnosis",
+    "title": "AI 진단을 추천드려요",
+    "message": "잎 끝이 갈색으로 변했다면 원인을 함께 찾아볼까요?",
+    "relatedPlantId": "plant-02",
+    "isRead": false,
+    "createdAt": "2026-06-27T09:30:00",
+    "navigateTo": "diagnosis"
+  },
+  {
+    "id": "notification-05",
+    "type": "care-completed",
+    "title": "오늘도 식물을 잘 돌봐주셨네요",
+    "message": "관리 기록이 캘린더에 저장되었어요.",
+    "relatedPlantId": "plant-05",
+    "isRead": true,
+    "createdAt": "2026-06-26T18:00:00",
+    "navigateTo": "calendar"
+  },
+  {
+    "id": "notification-06",
+    "type": "insight",
+    "title": "몬이가 새 잎을 틔울 준비를 하고 있어요",
+    "message": "오늘은 햇빛을 조금 더 받아보면 좋겠어요.",
+    "relatedPlantId": "plant-01",
+    "isRead": true,
+    "createdAt": "2026-06-26T14:00:00",
+    "navigateTo": "plant-detail"
+  },
+  {
+    "id": "notification-07",
+    "type": "insight",
+    "title": "선이에게 바람이 잘 통하는 곳이 좋아요",
+    "message": "오늘은 흙 상태를 한번 확인해보세요.",
+    "relatedPlantId": "plant-03",
+    "isRead": true,
+    "createdAt": "2026-06-25T10:00:00",
+    "navigateTo": "plant-detail"
+  }
+]

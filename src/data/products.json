@@ -1,0 +1,162 @@
+[
+  {
+    "id": "product-01",
+    "name": "테라코타 화분",
+    "image": "plantpots/teracota.jpg",
+    "category": "화분",
+    "price": 22000,
+    "description": "공기가 잘 통하는 테라코타 소재로 뿌리 호흡을 도와주는 화분이에요.",
+    "liked": false,
+    "recommendationHint": "과습을 줄이는 데 도움이 돼요.",
+    "relatedPlantIds": ["plant-01", "plant-02"],
+    "detailReasons": [
+      "테라코타는 수분을 천천히 마르게 해 과습을 예방해요.",
+      "통풍이 잘 되어 뿌리가 숨 쉬기 편해요.",
+      "분갈이 시기에 함께 사용하면 더 좋아요."
+    ]
+  },
+  {
+    "id": "product-02",
+    "name": "배수 화분받침",
+    "image": "plantpots/plantbase.jpg",
+    "category": "화분",
+    "price": 12000,
+    "description": "물받이에 고인 물을 빠르게 말려주는 받침이에요.",
+    "liked": false,
+    "recommendationHint": "실내에서 키우는 선인장에게 추천",
+    "relatedPlantIds": ["plant-03"],
+    "detailReasons": [
+      "받침에 물이 고이지 않아 뿌리가 편안해요.",
+      "통풍이 잘 되는 공간에 두기 좋아요.",
+      "건조를 좋아하는 식물에게 잘 어울려요."
+    ]
+  },
+  {
+    "id": "product-03",
+    "name": "성장 영양제",
+    "image": "nutrients/nutrients.png",
+    "category": "영양제",
+    "price": 15000,
+    "description": "새 잎이 나올 때 성장을 부드럽게 도와주는 영양제예요.",
+    "liked": false,
+    "recommendationHint": "새 잎이 나오고 있어요.",
+    "relatedPlantIds": ["plant-04", "plant-05"],
+    "detailReasons": [
+      "성장기에 필요한 영양을 골고루 전달해요.",
+      "새 잎이 나오는 시기에 특히 도움이 돼요.",
+      "희석해서 사용하면 부담 없이 돌볼 수 있어요."
+    ]
+  },
+  {
+    "id": "product-04",
+    "name": "유기질 배양토",
+    "image": "soil/soil.jpg",
+    "category": "흙",
+    "price": 18000,
+    "description": "통기성과 보수력이 좋은 배양토로 분갈이에 적합해요.",
+    "liked": false,
+    "recommendationHint": "분갈이를 앞둔 식물에게 추천",
+    "relatedPlantIds": ["plant-01", "plant-05"],
+    "detailReasons": [
+      "뿌리가 편안하게 자랄 수 있는 가벼운 구조예요.",
+      "분갈이 시기에 흙을 새로 바꿔주면 좋아요.",
+      "대부분의 실내 식물과 잘 어울려요."
+    ]
+  },
+  {
+    "id": "product-05",
+    "name": "미니 물뿌리개",
+    "image": "wateringcan/wateringcan.jpg",
+    "category": "물뿌리개",
+    "price": 14000,
+    "description": "좁은 공간에서도 고르게 물을 줄 수 있는 미니 물뿌리개예요.",
+    "liked": true,
+    "recommendationHint": "물주기가 다가온 식물에게 추천",
+    "relatedPlantIds": ["plant-01", "plant-07"],
+    "detailReasons": [
+      "긴 주둥이로 잎 사이까지 부드럽게 물을 줄 수 있어요.",
+      "소량씩 나눠 주기에 좋아 과습을 줄일 수 있어요.",
+      "책상 가까이 두고 자주 돌보기 좋아요."
+    ]
+  },
+  {
+    "id": "product-06",
+    "name": "LED 식물등",
+    "image": "plantlight/plantlight.jpg",
+    "category": "식물등",
+    "price": 32000,
+    "description": "햇빛이 부족한 공간에서도 식물이 편안하게 자랄 수 있도록 도와줘요.",
+    "liked": false,
+    "recommendationHint": "햇빛이 부족한 식물에게 추천",
+    "relatedPlantIds": ["plant-05", "plant-07"],
+    "detailReasons": [
+      "간접광이 부족한 실내에서 보조 빛으로 쓰기 좋아요.",
+      "잎 색이 탁해질 때 도움이 될 수 있어요.",
+      "겨울철 짧은 낮에 특히 유용해요."
+    ]
+  },
+  {
+    "id": "product-07",
+    "name": "행잉 플랜터",
+    "image": "plantpots/hangingplanters.jpg",
+    "category": "화분",
+    "price": 18000,
+    "description": "늘어지는 식물을 건강하게 키울 수 있도록 도와주는 행잉 화분이에요.",
+    "liked": false,
+    "recommendationHint": "아래로 자라는 식물에게 추천",
+    "relatedPlantIds": ["plant-07"],
+    "detailReasons": [
+      "하트 체인처럼 아래로 자라는 식물에 적합해요.",
+      "통풍이 잘 되어 과습을 줄이는 데 도움이 돼요.",
+      "창가 높은 곳에 걸어 두기 좋아요."
+    ]
+  },
+  {
+    "id": "product-08",
+    "name": "미스트 분무기",
+    "image": "wateringspray/mistspray.png",
+    "category": "분무기",
+    "price": 9000,
+    "description": "잎에 고른 안개를 주어 습도를 살짝 올려주는 분무기예요.",
+    "liked": false,
+    "recommendationHint": "건조한 실내 환경에 추천",
+    "relatedPlantIds": ["plant-01", "plant-05"],
+    "detailReasons": [
+      "잎 표면에 산뜻한 습기를 더해줄 수 있어요.",
+      "에어컨 바람이 강한 공간에 두기 좋아요.",
+      "아침에 가볍게 분무하면 기분이 상쾌해져요."
+    ]
+  },
+  {
+    "id": "product-09",
+    "name": "식물 지지대",
+    "image": "plantpole/plantpole.jpg",
+    "category": "지지대",
+    "price": 11000,
+    "description": "자라는 줄기를 부드럽게 받쳐 주는 지지대예요.",
+    "liked": false,
+    "recommendationHint": "줄기가 자라는 식물에게 추천",
+    "relatedPlantIds": ["plant-01", "plant-04"],
+    "detailReasons": [
+      "새 줄기가 올라올 때 넘어지지 않게 도와줘요.",
+      "몬스테라처럼 자라는 식물에 잘 어울려요.",
+      "부드럽게 고정해 줄기에 자국이 남지 않아요."
+    ]
+  },
+  {
+    "id": "product-10",
+    "name": "가벼운 분무기",
+    "image": "wateringspray/lightspray.jpg",
+    "category": "분무기",
+    "price": 7000,
+    "description": "가볍게 잡고 쓰기 좋은 소형 분무기예요.",
+    "liked": false,
+    "recommendationHint": "잎을 자주 닦아주고 싶을 때",
+    "relatedPlantIds": ["plant-03", "plant-08"],
+    "detailReasons": [
+      "다육이처럼 분무를 조심해야 하는 식물 외 대부분에 쓸 수 있어요.",
+      "잎 먼지를 가볍게 씻어내기 좋아요.",
+      "작은 공간에서도 보관하기 편해요."
+    ]
+  }
+]

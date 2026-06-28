@@ -1,0 +1,82 @@
+[
+  {
+    "id": "general-health",
+    "title": "일반 건강 진단",
+    "description": "잎, 흙, 빛, 물주기를 함께 살펴보는 기본 진단 흐름이에요.",
+    "questions": [
+      {
+        "id": "question-01",
+        "key": "leaf-color-change",
+        "text": "잎 색이 변했나요?",
+        "guide": "잎의 색은 영양 상태를 판단하는 중요한 단서예요.",
+        "answerType": "yes-no",
+        "options": [
+          { "id": "q1-yes", "label": "네", "value": "yes" },
+          { "id": "q1-no", "label": "아니요", "value": "no" }
+        ]
+      },
+      {
+        "id": "question-02",
+        "key": "tip-browning",
+        "text": "잎 끝만 갈색인가요?",
+        "guide": "갈변 위치에 따라 과습과 건조를 구분할 수 있어요.",
+        "answerType": "yes-no",
+        "options": [
+          { "id": "q2-yes", "label": "네", "value": "yes" },
+          { "id": "q2-no", "label": "아니요", "value": "no" }
+        ]
+      },
+      {
+        "id": "question-03",
+        "key": "soil-moisture",
+        "text": "흙이 아직 촉촉한가요?",
+        "guide": "이 질문은 과습과 건조를 구분하기 위해 필요한 정보예요.\n\n흙을 손으로 만져봤을 때 손에 달라붙으면 물을 주지 않아도 되는 상태이고, 손에 묻어나지 않는다면 물을 줘도 되는 상태예요.",
+        "answerType": "yes-no",
+        "options": [
+          { "id": "q3-yes", "label": "네", "value": "yes" },
+          { "id": "q3-no", "label": "아니요", "value": "no" }
+        ]
+      },
+      {
+        "id": "question-04",
+        "key": "light-exposure",
+        "text": "햇빛을 충분히 받고 있나요?",
+        "guide": "빛의 양은 잎 색과 성장 속도에 큰 영향을 줘요.",
+        "answerType": "multiple-choice",
+        "options": [
+          {
+            "id": "q4-bright",
+            "label": "밝은 곳이에요",
+            "value": "bright",
+            "emoji": "☀️"
+          },
+          {
+            "id": "q4-medium",
+            "label": "간접광이에요",
+            "value": "indirect",
+            "emoji": "🌤️"
+          },
+          {
+            "id": "q4-low",
+            "label": "어두운 편이에요",
+            "value": "low",
+            "emoji": "🌥️"
+          }
+        ]
+      },
+      {
+        "id": "question-05",
+        "key": "last-watering",
+        "text": "최근 물을 준 시기는 언제인가요?",
+        "guide": "물주기 시기는 뿌리 건강을 살펴보는 데 도움이 돼요.",
+        "answerType": "multiple-choice",
+        "options": [
+          { "id": "q5-today", "label": "오늘", "value": "today" },
+          { "id": "q5-recent", "label": "1–2일 전", "value": "recent" },
+          { "id": "q5-older", "label": "3일 이상 전", "value": "older" },
+          { "id": "q5-unknown", "label": "잘 모르겠어요", "value": "unknown" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mission-01",
+    "plantId": "plant-01",
+    "title": "새 잎 관찰",
+    "description": "새 잎이 올라왔는지 살펴보세요.",
+    "observationOptions": [
+      "🌱 새 잎이 생겼어요.",
+      "🍃 잎 색이 변했어요.",
+      "☀️ 특별한 변화는 없어요."
+    ],
+    "completed": false
+  },
+  {
+    "id": "mission-02",
+    "plantId": "plant-02",
+    "title": "잎 끝 관찰",
+    "description": "잎 끝 색을 한번 살펴보세요.",
+    "observationOptions": [
+      "🍃 잎 색이 변했어요.",
+      "☀️ 특별한 변화는 없어요.",
+      "💧 흙이 아직 촉촉해요."
+    ],
+    "completed": false
+  },
+  {
+    "id": "mission-03",
+    "plantId": "plant-03",
+    "title": "흙 상태 확인",
+    "description": "흙이 충분히 말랐는지 확인해보세요.",
+    "observationOptions": [
+      "💧 흙이 아직 촉촉해요.",
+      "☀️ 특별한 변화는 없어요.",
+      "🌿 줄기가 자랐어요."
+    ],
+    "completed": true
+  },
+  {
+    "id": "mission-04",
+    "plantId": "plant-04",
+    "title": "새 잎 성장",
+    "description": "새 잎의 길이를 확인해보세요.",
+    "observationOptions": [
+      "🌱 새 잎이 생겼어요.",
+      "🌿 줄기가 자랐어요.",
+      "☀️ 특별한 변화는 없어요."
+    ],
+    "completed": false
+  },
+  {
+    "id": "mission-05",
+    "plantId": "plant-05",
+    "title": "잎 상태 관찰",
+    "description": "잎 색과 형태를 살펴보세요.",
+    "observationOptions": [
+      "🌱 새 잎이 생겼어요.",
+      "🍃 잎 색이 변했어요.",
+      "☀️ 특별한 변화는 없어요."
+    ],
+    "completed": true
+  },
+  {
+    "id": "mission-06",
+    "plantId": "plant-06",
+    "title": "날씨 대비",
+    "description": "비가 오기 전 식물 상태를 확인해보세요.",
+    "observationOptions": [
+      "☀️ 특별한 변화는 없어요.",
+      "💧 흙이 아직 촉촉해요.",
+      "🍃 잎 색이 변했어요."
+    ],
+    "completed": false
+  },
+  {
+    "id": "mission-07",
+    "plantId": "plant-07",
+    "title": "분갈이 준비",
+    "description": "뿌리 상태를 함께 살펴볼까요?",
+    "observationOptions": [
+      "🌿 줄기가 자랐어요.",
+      "☀️ 특별한 변화는 없어요.",
+      "🌱 새 잎이 생겼어요."
+    ],
+    "completed": true
+  },
+  {
+    "id": "mission-08",
+    "plantId": "plant-08",
+    "title": "오늘의 관찰",
+    "description": "특별한 변화가 있는지 살펴보세요.",
+    "observationOptions": [
+      "🌱 새 잎이 생겼어요.",
+      "☀️ 특별한 변화는 없어요.",
+      "🌿 줄기가 자랐어요."
+    ],
+    "completed": false
+  }
+]

@@ -1,0 +1,107 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Tektur";
+  src: url("../assets/fonts/Tekur/static/Tektur-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  --font-sans: "Pretendard", system-ui, sans-serif;
+  --font-tektur: "Tektur", system-ui, sans-serif;
+
+  /* Planat color tokens */
+  --color-planat-primary-light: #49c1c1;
+  --color-planat-primary-dark: #1f6979;
+  --color-planat-yellow: #f7d674;
+  --color-planat-green: #69bf84;
+  --color-planat-orange: #d98c60;
+  --color-planat-bg-neutral: #f2efe8;
+  --color-planat-text-primary: #5d433a;
+  --color-planat-text-secondary: #a8a8a8;
+  --color-planat-gradient-top: #63d6d6;
+  --color-planat-gradient-bottom: #32a9a9;
+  --color-planat-gradient-dark-top: #165361;
+  --color-planat-gradient-dark-bottom: #2a7e8f;
+
+  /* Semantic aliases */
+  --color-background: var(--color-planat-gradient-bottom);
+  --color-foreground: var(--color-planat-text-primary);
+  --color-card: #ffffff;
+  --color-card-foreground: var(--color-planat-text-primary);
+  --color-primary: var(--color-planat-primary-light);
+  --color-primary-foreground: #ffffff;
+  --color-secondary: var(--color-planat-bg-neutral);
+  --color-secondary-foreground: var(--color-planat-text-primary);
+  --color-muted: var(--color-planat-bg-neutral);
+  --color-muted-foreground: var(--color-planat-text-secondary);
+  --color-accent: var(--color-planat-yellow);
+  --color-accent-foreground: var(--color-planat-text-primary);
+  --color-destructive: var(--color-planat-orange);
+  --color-border: rgba(93, 67, 58, 0.12);
+  --color-input: rgba(93, 67, 58, 0.12);
+  --color-ring: var(--color-planat-primary-light);
+
+  /* Border radius */
+  --radius-button: 8px;
+  --radius-input: 12px;
+  --radius-card: 16px;
+  --radius-sheet: 16px;
+  --radius-full: 9999px;
+
+  --radius-sm: var(--radius-button);
+  --radius-md: var(--radius-input);
+  --radius-lg: var(--radius-card);
+  --radius-xl: var(--radius-card);
+
+  /* Typography scale */
+  --text-display: 2rem;
+  --text-page-title: 1.5rem;
+  --text-section-title: 1.25rem;
+  --text-card-title: 1.125rem;
+  --text-body: 1rem;
+  --text-caption: 0.875rem;
+  --text-helper: 0.75rem;
+
+  /* Layout */
+  --spacing-screen-x: 16px;
+  --height-header: 56px;
+  --height-bottom-nav: 64px;
+  --width-mobile: 393px;
+  --height-mobile: 852px;
+
+  /* Elevation */
+  --shadow-card: 0 4px 16px rgba(93, 67, 58, 0.08);
+  --shadow-soft: 0 2px 8px rgba(93, 67, 58, 0.06);
+}
+
+:root {
+  --radius: var(--radius-card);
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: 1.5;
+  color: var(--color-planat-text-primary);
+  background: linear-gradient(
+    180deg,
+    var(--color-planat-gradient-top) 0%,
+    var(--color-planat-gradient-bottom) 100%
+  );
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}

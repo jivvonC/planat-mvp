@@ -1,0 +1,40 @@
+{
+  "default": {
+    "condition": "흐림",
+    "temperature": 26,
+    "humidity": 73,
+    "idealTempMin": 18,
+    "idealTempMax": 25,
+    "idealLight": "밝은 간접광",
+    "recommendation": "오늘은 조금 더 시원한 곳으로 옮겨보는 건 어떨까요?"
+  },
+  "plants": {
+    "plant-01": {
+      "condition": "맑음",
+      "temperature": 28,
+      "humidity": 65,
+      "idealTempMin": 18,
+      "idealTempMax": 27,
+      "idealLight": "밝은 간접광",
+      "recommendation": "오늘은 햇빛이 잘 드는 창가에 두면 좋아요."
+    },
+    "plant-06": {
+      "condition": "흐림",
+      "temperature": 26,
+      "humidity": 73,
+      "idealTempMin": 18,
+      "idealTempMax": 25,
+      "idealLight": "밝은 간접광",
+      "recommendation": "오늘은 오후에 비가 와요. 베란다 식물을 잠시 안으로 들여볼까요?"
+    },
+    "plant-03": {
+      "condition": "맑음",
+      "temperature": 29,
+      "humidity": 55,
+      "idealTempMin": 20,
+      "idealTempMax": 30,
+      "idealLight": "직사광",
+      "recommendation": "하루 정도 바람을 쐬어주는 것도 좋아요."
+    }
+  }
+}
