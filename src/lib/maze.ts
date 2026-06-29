@@ -1,4 +1,4 @@
-export const MAZE_API_KEY = "8609bd42-44c2-4634-9815-a897f5fad834";
+export const MAZE_API_KEY = "08008874-e394-447a-b784-c987dcb811d0";
 
 const MAZE_LOADER_URL = "https://snippet.maze.co/maze-universal-loader.js";
 
